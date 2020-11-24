@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e305442c-1a9e-45cc-a0f2-a79d103479dd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jyzVx2epjtESXFj3e1JY9yLWvI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste" />
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste\apiteste" />
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste\myapp\static" />
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste\myapp\templates" />
+      <recent name="C:\Users\Flavio\Desktop\projeto-django-rest\apiteste\myapp" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e305442c-1a9e-45cc-a0f2-a79d103479dd" name="Default Changelist" comment="" />
+      <created>1604791146533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604791146533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1606175164600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="188" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606175164600" />
+    <state x="390" y="188" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606163416584" />
+  </component>
+</project>

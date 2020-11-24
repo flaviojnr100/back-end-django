@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="caixa">
+   <div class="form">
+    <form method="post" action="{% url 'salvar' %}">
+        {% csrf_token %}
+        <div class="form-group" style="width:300px;height:200px">
+            <input type="text"  name="nome" class="form-control mb-2 ml-4" placeholder="Digite o nome">
+
+            <input type="text" name="sobrenome" class="form-control mb-2 ml-4" placeholder="Digite o sobrenome">
+
+            <input type="text" name="email" class="form-control mb-2 ml-4" placeholder="Digite o email">
+
+            <input type="submit" class="btn btn-primary ml-4" value="Salvar">
+        </div>
+    </form>
+</div>
+    </div>
+
+{% endblock %}

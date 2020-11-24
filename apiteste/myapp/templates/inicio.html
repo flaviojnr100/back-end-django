@@ -1,0 +1,39 @@
+
+{% extends 'base.html' %}
+{% block content %}
+    <table class="table table-bordered ">
+        <thead class="bg-dark text-light">
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+                <td>Email</td>
+                <td>Ações</td>
+            </tr>
+        </thead>
+        <tbody>
+        {% for usuario in usuarios %}
+            <tr>
+                <td>{{ usuario.id }}</td>
+                <td>{{ usuario.nome }}</td>
+                <td>{{ usuario.sobrenome }}</td>
+                <td>{{ usuario.email }}</td>
+                <td>
+                    <div class="container">
+                        <div class="row">
+                            <a href="{% url 'ver' id=usuario.id %}" class="btn btn-info mr-2">Ver</a>
+                            <a href="{% url 'editar' id=usuario.id %}"  class="btn btn-warning mr-2">Editar</a>
+
+                    <form action="{% url 'deletar' id=usuario.id %}" method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="_method" value="DELETE">
+                        <input type="submit" value="Excluir" class="btn btn-danger">
+                    </form>
+                            </div>
+                        </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

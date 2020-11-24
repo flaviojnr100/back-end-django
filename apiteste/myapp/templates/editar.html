@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="caixa">
+   <div class="form">
+    <form method="POST" action="{% url 'atualizar' id=usuario.id %}">
+        {% csrf_token %}
+        <div class="form-group" style="width:300px;height:200px">
+            <input type="hidden" name="_method" value="PUT">
+            <input type="text" name="nome" class="form-control mb-2 ml-4" placeholder="Digite o nome" value="{{usuario.nome}}">
+
+            <input type="text" name="sobrenome" class="form-control mb-2 ml-4" placeholder="Digite o sobrenome"  value="{{usuario.sobrenome}}">
+
+            <input type="text" name="email" class="form-control mb-2 ml-4" placeholder="Digite o email"  value="{{usuario.email}}">
+
+            <input type="submit" class="btn btn-primary ml-4" value="Salvar">
+        </div>
+    </form>
+</div>
+</div>
+{% endblock %}

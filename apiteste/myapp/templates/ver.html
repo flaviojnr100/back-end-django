@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div>
+    <table class="table table-bordered ">
+        <thead class="bg-dark text-light">
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Sobrenome</td>
+                <td>Email</td>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>{{ usuario.id }}</td>
+                <td>{{ usuario.nome }}</td>
+                <td>{{ usuario.sobrenome }}</td>
+                <td>{{ usuario.email }}</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+{% endblock %}
