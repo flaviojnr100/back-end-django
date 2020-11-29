@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myapp.views import cadastro, salvar, inicio, editar, atualizar, deletar, ver
+from myapp.views import cadastro, salvar, inicio, editar, atualizar, deletar, ver,login,cadastro_login,salvar_login,do_login,do_logout
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+    path('login/',login,name='login'),
     path('cadastro',cadastro,name='cadastro'),
     path('salvar/', salvar,name='salvar'),
     path('', inicio,name='inicio'),
@@ -27,6 +28,11 @@ urlpatterns = [
     path('atualizar/<int:id>', atualizar,name='atualizar'),
     path('deletar/<int:id>', deletar,name='deletar'),
     path('ver/<int:id>', ver,name='ver'),
+    path('cadastro_login',cadastro_login,name='cadastro_login'),
+    path('salvar_login',salvar_login,name='salvar_login'),
+    path('logar',do_login,name='logar'),
+    path('logout',do_logout,name='logout')
+
 
 ]
 

@@ -1,0 +1,17 @@
+.caixa{
+    margin-left: 40%;
+    margin-top: 250px;
+    width: 300px;
+    height: 300px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.titulo{
+    margin-left: 40%;
+    font-size: 30px;
+}
+.botao-entrar{
+    margin-left: 40%;
+}
